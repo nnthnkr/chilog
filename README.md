@@ -2,12 +2,12 @@
 This is a single header only micro library to log information. I use it in my other mini projects. 
 
 We can log 3 types of information:
-- cl\_INFO
-- cl\_WARNING
-- cl\_ERROR
+- information
+- warning
+- error
 
-### usage
-After including the header to our library, we get access to 3 functions:
+### Usage
+After including the header to our project, we get access to below 3 functions:
 - `cl_INFO(const char *info_msg)`
 - `cl_WARN(const char *warn_msg)`
 - `cl_ERROR(const char *error_msg)`
