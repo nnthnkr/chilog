@@ -1,4 +1,4 @@
-# chilog - a very simple c logger
+# chilog - a very simple logger in c
 This is a single header only micro library to log information. I use it in my other mini projects. 
 
 We can log 3 types of information:
