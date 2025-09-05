@@ -44,9 +44,9 @@ void cl_ERROR(const char *error_msg) {
     if (! *error_msg)    
         return;
     #if defined(CHILOG_COLORS)
-        fprintf(stdout, "[" RED "ERROR" RESET "]: %s\n", error_msg);
+        fprintf(stderr, "[" RED "ERROR" RESET "]: %s\n", error_msg);
     #else
-        fprintf(stdout, "[ERROR]: %s\n", error_msg);
+        fprintf(stderr, "[ERROR]: %s\n", error_msg);
     #endif
 }
 
